@@ -1,0 +1,29 @@
+/* Styles for the About page container */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  .about-header {
+    text-align: center;
+  }
+  
+  /* Paragraph styles */
+  .about-paragraph {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .about-container {
+      padding: 10px;
+    }
+    
+    .about-paragraph {
+      font-size: 14px;
+    }
+  }
+  
